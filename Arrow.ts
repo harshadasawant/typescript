@@ -16,7 +16,7 @@ console.log(hello1());
   };  
   console.log(getResult("harshada",100.5));
 
-var getArr= (u,p)=>{ return u + ' scored ' + p + ' points!'}; 
+var getArr= (username,points)=>{ return username + ' scored ' + points + ' points!'}; 
 console.log(getArr("harshada",100));
 
 //with parameter with data type
