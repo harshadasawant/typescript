@@ -26,6 +26,13 @@ const aboutMe = ["Oluwatobi", ...myName, "name."];
 
 console.log(aboutMe);
 
+// Spread in function call
+function abc(...a){
+console.log(a);
+}
+const numbersOne1 = [1, 2, 3, 4];
+abc(...numbersOne1);
+
 //combining two Array
 const numbersOne = [1, 2, 3];
 const numbersTwo = [4, 5, 6];
@@ -46,4 +53,5 @@ let myVehicle = {
   }
   
   const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
+
   console.log(myUpdatedVehicle);

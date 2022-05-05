@@ -54,6 +54,16 @@ console.log(otherInfo2);
 var myName = ["Sofela", "is", "my"];
 var aboutMe = __spreadArray(__spreadArray(["Oluwatobi"], myName, true), ["name."], false);
 console.log(aboutMe);
+// Spread in function call
+function abc() {
+    var a = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        a[_i] = arguments[_i];
+    }
+    console.log(a);
+}
+var numbersOne1 = [1, 2, 3, 4];
+abc.apply(void 0, numbersOne1);
 //combining two Array
 var numbersOne = [1, 2, 3];
 var numbersTwo = [4, 5, 6];
