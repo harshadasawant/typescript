@@ -1,0 +1,5 @@
+1. create form and add joining date and email address boxes before submit button and apply css.----30
+2. create Nav bar in form page from bootstrap ----10
+3. Create person interface with fields  name, age and method getPerson()---10 mark
+4. Create Employee class which implements Person inerface and add salary as new field.
+	Create object of Employee class and disaply the object details--- 20 
