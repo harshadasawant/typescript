@@ -17,6 +17,7 @@ var permanentAddress = user1.address2;
 var address2 = user1.address2;
 console.log(permanentAddress); // 15th Park Avenue
 console.log(address2); // 15th Park Avenue
+// nested object
 var user2 = {
     'name': 'Alex',
     'address': '15th Park Avenue',
@@ -32,8 +33,8 @@ var user2 = {
     }
 };
 var department = user2.department;
-console.log(department);
+console.log('dept--', department);
 var address = user2.department.address;
-console.log(address);
+console.log('add--', address);
 var city = user2.department.address.city;
-console.log(city);
+console.log('city--', city);

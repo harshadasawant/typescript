@@ -40,9 +40,9 @@ const user2 = {
 }
 
 const { department } = user2;
-console.log(department)
+console.log('dept--',department)
 const { department: { address } } = user2;
-console.log(address)
+console.log('add--',address)
 const { department: { address: { city } } } = user2;
-console.log(city)
+console.log('city--',city)
 
